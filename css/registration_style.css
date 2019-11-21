@@ -1,0 +1,76 @@
+::-webkit-input-placeholder {
+ color: rgb(125,125,125);
+}
+*:focus {
+	outline: none;
+}
+.contact_form {
+	font: 20px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	position: relative;
+	margin-top: 0px; 
+}
+.contact_form ul {
+	position: relative;
+ 	width:400px;
+ 	list-style-type: none;
+ 	list-style-position: outside;
+ 	margin:0px;
+ 	padding:0px;
+ 	left: 30%;
+}
+.contact_form li{
+	padding: 12px;
+	position: relative;
+}
+.contact_form h2{
+	margin-left: 20%;
+	display: inline;
+}
+.contact_form label {
+ 	width: 200px;
+ 	margin-top: -10px;
+ 	display: inline-block;
+ 	float: left;
+ 	text-align: left;
+ 	padding: 3px;
+}
+.contact_form input {
+ 	height:40px;
+ 	width:220px;
+ 	padding:5px 8px;
+ 	font-size: 17px;
+ 	user-select: none;
+}
+.contact_form button {
+	font-size: 20px;
+	font-weight: normal;
+	display: inline-block;
+  	color: black;
+  	text-decoration: none;
+	user-select: none;
+	padding: .5em 2em;
+	outline: none;
+	border-radius: 1px;
+	transition: 0.2s;
+}
+button.submit:hover {
+	background: rgba(255,255,255,.2);
+    cursor: pointer;
+}
+button.submit: active {
+	background: white;
+}
+.angel_light{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: -15px;
+	top: -15px;
+}
+/*<img class="angel_dark" src = "https://cdn.pixabay.com/photo/2015/09/15/19/06/angel-941567_960_720.png">
+.angel_dark {
+	top: 10%;
+
+}*/
+/*allsmallgroups
+*/

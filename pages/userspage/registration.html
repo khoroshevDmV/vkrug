@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Менеджер</title>
+	<link rel="stylesheet" href="/css/registration_style.css">
+  <link rel="stylesheet" href="/css/style.css"> 
+</head>
+<body>
+	<div id="menu">
+      <header class="main-header" id="header_menu">
+        <div class="container">
+          <h1 class="logo">
+          <a href="/index.html"> <img src="http://pngimg.com/uploads/wings/wings_PNG18.png"></a>
+          </h1>
+          <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a href="/index.html">Главная</a>
+            </li>
+            <li>
+              <a href="#">Наши клиенты</a>
+            </li>
+            <li>
+              <a href="#">О нас</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+            <li>
+              <a href="/pages/userspage/registration.html">Регистрация</a>
+            </li>
+          </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <div>
+	<form class="contact_form" action="" method="post" name="contact_form" id="form_registration">
+		<img id="angel" class="angel_light" src="https://pngimg.com/uploads/angel/angel_PNG11.png">
+		<ul class="registration_container">
+    		<li>
+         		<h2>Регистрация</h2>
+    		</li>
+    		<li>
+        		<label class="name" for="name">Имя пользователя:</label>
+        		<input type="text" name="name" placeholder="Иван">
+    		</li>
+    		<li>
+    			<label for="email">E-mail:</label>
+    			<input type="text" name="email" placeholder="example@mail.com">
+    			<span class="form_hint"></span>
+			</li>
+			<li>
+ 				<label for="password">Пароль:</label>
+ 				<input type="text" name="password" placeholder="1234567890q">
+ 				<span class="form_hint"></span>
+			</li>
+			<li>
+ 				<button class="submit" type="submit">Зарегистрироваться</button>
+			</li>
+		</ul>
+	</form>
+</div>
+</body>
+	<script src="/js/registration.js"></script>
+</html>
