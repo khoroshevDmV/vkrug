@@ -26,14 +26,6 @@
 	margin-left: 20%;
 	display: inline;
 }
-.contact_form label {
- 	width: 200px;
- 	margin-top: -10px;
- 	display: inline-block;
- 	float: left;
- 	text-align: left;
- 	padding: 3px;
-}
 .contact_form input {
  	height:40px;
  	width:220px;
