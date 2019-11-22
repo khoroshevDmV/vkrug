@@ -5,36 +5,46 @@
 	outline: none;
 }
 .contact_form {
+	position: absolute;
 	font: 20px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-	position: relative;
-	margin-top: 0px; 
+	margin-top: 0px;
+	width: 100%;
 }
 .contact_form ul {
 	position: relative;
- 	width:400px;
+	width: 300px;
+	height: 300px;
  	list-style-type: none;
  	list-style-position: outside;
  	margin:0px;
  	padding:0px;
- 	left: 30%;
+ 	left: 50%;
+ 	transform: translateX(-50%);
 }
 .contact_form li{
 	padding: 12px;
 	position: relative;
+	left: 50%;
+ 	transform: translateX(-50%);
 }
 .contact_form h2{
-	margin-left: 20%;
-	display: inline;
+	font-size: 40px;
+	color: rgb(1,1,250);
+	position: relative;
 }
 .contact_form input {
+	position: relative;
+	display: block;
  	height:40px;
  	width:220px;
  	padding:5px 8px;
  	font-size: 17px;
  	user-select: none;
+ 	left: 50%;
+ 	transform: translateX(-50%);
 }
 .submit {
-	position: absolute;
+	position: relative;
 	font-size: 20px;
 	font-weight: normal;
 	display: inline-block;
@@ -45,7 +55,9 @@
 	outline: none;
 	border-radius: 1px;
 	transition: 0.2s;
-	left: 35%;
+	top: 300px;
+	left: 50%;
+ 	transform: translateX(-50%);
 }
 .submit:hover {
 	background: rgba(255,255,255,.2);
@@ -58,13 +70,6 @@
 	position: absolute;
 	width: 400px;
 	height: 400px;
-	left: -15px;
-	top: -15px;
+	left: 10%;
+	top: 5%;
 }
-/*<img class="angel_dark" src = "https://cdn.pixabay.com/photo/2015/09/15/19/06/angel-941567_960_720.png">
-.angel_dark {
-	top: 10%;
-
-}*/
-/*allsmallgroups
-*/
