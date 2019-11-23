@@ -5,12 +5,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-<<<<<<< HEAD
-	/*background-image: url("https://3rm.info/uploads/posts/2012-09/1347252347_nebo.jpg");
-	*/background-size: 100%;
-=======
 	background-size: 100%;
->>>>>>> a9110bd1866dc82e59303fbca9e482ed2ee28566
 }		
 .logo {
 	position: relative;
