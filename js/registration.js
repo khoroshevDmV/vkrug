@@ -5,4 +5,5 @@ function registration_user() {
 		password_person: password.value,
 	}
 	localStorage.setItem(email.value, JSON.stringify(new_person));
+	window.location = "C:/Users/Diana/Desktop/СРОЧНО!!!/pages/userspage/usersinfo.html";
 }
