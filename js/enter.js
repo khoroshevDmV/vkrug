@@ -3,7 +3,7 @@ function enter_user() {
 		email.style.borderColor = "maroon";
 	}
 	if (JSON.parse(localStorage.getItem(email.value)).password_person == password.value){
-		window.location = "C:/Users/Diana/Desktop/СРОЧНО!!!/pages/userspage/usersinfo.html";	
+		window.location = "/pages/userspage/usersinfo.html";	
 	} else {
 		password.style.borderColor = "maroon";
 	}
