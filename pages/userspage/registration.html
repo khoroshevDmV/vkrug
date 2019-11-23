@@ -3,20 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Менеджер</title>
-	<link rel="stylesheet" href="/css/registration_style.css">
-  <link rel="stylesheet" href="/css/style.css"> 
+	<link rel="stylesheet" href="C:/Users/Diana/Desktop/СРОЧНО!!!/css/registration_style.css">
+  <link rel="stylesheet" href="C:/Users/Diana/Desktop/СРОЧНО!!!/css/style.css"> 
 </head>
 <body>
 	<div id="menu">
       <header class="main-header" id="header_menu">
         <div class="container">
           <h1 class="logo">
-          <a href="/index.html"> <img src="http://pngimg.com/uploads/wings/wings_PNG18.png"></a>
+          <a href="C:/Users/Diana/Desktop/СРОЧНО!!!/index.html"> <img src="C:/Users/Diana/Desktop/СРОЧНО!!!/icons/icon_for_header.png"></a>
           </h1>
           <nav class="main-nav">
           <ul class="main-nav-list">
             <li>
-              <a href="/index.html">Главная</a>
+              <a href="C:/Users/Diana/Desktop/СРОЧНО!!!/index.html">Главная</a>
             </li>
             <li>
               <a href="#">Наши клиенты</a>
@@ -25,17 +25,17 @@
               <a href="#">О нас</a>
             </li>
             <li>
-              <a href="/pages/userspage/enter.html">Вход</a>
+              <a href="C:/Users/Diana/Desktop/СРОЧНО!!!/pages/userspage/enter.html">Вход</a>
             </li>
             <li>
-              <a href="/pages/userspage/registration.html">Регистрация</a>
+              <a href="C:/Users/Diana/Desktop/СРОЧНО!!!/pages/userspage/registration.html">Регистрация</a>
             </li>
           </ul>
           </nav>
         </div>
       </header>
     </div>
-    <img id="angel" class="angel_light" src="https://pngimg.com/uploads/angel/angel_PNG11.png">
+    <!--<img id="angel" class="angel_light" src="https://pngimg.com/uploads/angel/angel_PNG11.png">-->
     <div class="all">
 	<form class="contact_form" action="" method="post" name="contact_form" id="form_registration">
 		<ul class="registration_container">
@@ -43,21 +43,20 @@
          		
     		</li>
     		<li>
-        		<input type="text" name="name" placeholder="Имя пользователя">
+        		<input type="text" id="namea" placeholder="Имя пользователя">
     		</li>
     		<li>
-    			<input type="text" name="email" placeholder="E-mail">
-    			<span class="form_hint"></span>
+    			<input type="text" id="email" placeholder="E-mail">
 			</li>
 			<li>
- 				<input type="text" name="password" placeholder="Пароль">
- 				<span class="form_hint"></span>
+ 				<input type="text" id="password" placeholder="Пароль">
+			</li>
+			<li>
+ 				<input type="button" class="submit" value="Зарегистрироваться" id="registration_users" onclick="registration_user()">
 			</li>
 		</ul>
 	</form>
 </div>
-<form action="/pages/userspage/usersinfo.html">
-    <button class="submit" type="submit">Войти</button>
-  </form>
+    <script src="C:/Users/Diana/Desktop/СРОЧНО!!!/js/registration.js"></script>
 </body>
 </html>

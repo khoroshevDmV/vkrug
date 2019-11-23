@@ -28,8 +28,9 @@
 }
 .contact_form h2{
 	font-size: 40px;
-	color: rgb(1,1,250);
 	position: relative;
+	left: 50%;
+ 	transform: translateX(-50%);
 }
 .contact_form input {
 	position: relative;
@@ -52,7 +53,7 @@
 	user-select: none;
 	padding: .5em 2em;
 	outline: none;
-	border-radius: 1px;
+	border-radius: 8px;
 	transition: 0.2s;
 	left: 50%;
  	transform: translateX(-50%);

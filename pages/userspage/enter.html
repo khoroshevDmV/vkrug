@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Менеджер</title>
-  <link rel="stylesheet" href="!/css/enter_style.css">
+  <link rel="stylesheet" href="/css/enter_style.css">
   <link rel="stylesheet" href="/css/style.css"> 
 </head>
 <body>
@@ -11,7 +11,7 @@
       <header class="main-header" id="header_menu">
         <div class="container">
           <h1 class="logo">
-          <a href="/index.html"> <img src="http://pngimg.com/uploads/wings/wings_PNG18.png"></a>
+          <a href="/index.html"> <img src="/icons/icon_for_header.png"></a>
           </h1>
           <nav class="main-nav">
           <ul class="main-nav-list">
@@ -35,25 +35,22 @@
         </div>
       </header>
     </div>
-        <img id="angel" class="angel_light" src="https://pngimg.com/uploads/angel/angel_PNG11.png">
+        <!--<img id="angel" class="angel_light" src="https://pngimg.com/uploads/angel/angel_PNG11.png">-->
     <div class="all">
   <form class="contact_form" action="" method="post" name="contact_form" id="form_registration">
     <ul class="registration_container">
-        <li> <center><h2>Вход</h2></center>    
+        <li><h2>Авторизация</h2>   
         </li>
         <li>
-          <input type="text" name="email" placeholder="E-mail">
-          <span class="form_hint"></span>
+          <input type="text" id="email" class="valid" placeholder="E-mail" oninput="email_valid()">
       </li>
       <li>
-        <input type="text" name="password" placeholder="Пароль">
-        <span class="form_hint"></span>
+        <input type="text" id="password" placeholder="Пароль" oninput="password_valid()">
       </li>
     </ul>
+      <input type="button" class="submit" value="Войти" id="enter_users" onclick="enter_user()">
   </form>
 </div>
-  <form action="/pages/userspage/usersinfo.html">
-    <button class="submit" type="submit">Войти</button>
-  </form>
-</body>
+    <script src="/js/enter.js"></script>
+  </body>
 </html>

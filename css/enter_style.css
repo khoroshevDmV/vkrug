@@ -13,7 +13,6 @@
 .contact_form ul {
 	position: relative;
 	width: 300px;
-	height: 300px;
  	list-style-type: none;
  	list-style-position: outside;
  	margin:0px;
@@ -29,8 +28,9 @@
 }
 .contact_form h2{
 	font-size: 40px;
-	color: rgb(1,1,250);
 	position: relative;
+	left: 50%;
+ 	transform: translateX(-50%);
 }
 .contact_form input {
 	position: relative;
@@ -53,9 +53,8 @@
 	user-select: none;
 	padding: .5em 2em;
 	outline: none;
-	border-radius: 1px;
+	border-radius: 8px;
 	transition: 0.2s;
-	top: 300px;
 	left: 50%;
  	transform: translateX(-50%);
 }
