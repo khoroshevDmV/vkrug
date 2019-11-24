@@ -3,4 +3,9 @@
 	flex-direction: column;
 	left: 50%;
 	transform: translateX(-50%);
+	width: 500px;
+}
+img {
+	width: 100px;
+	height: 100px;
 }
