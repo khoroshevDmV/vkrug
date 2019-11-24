@@ -1,10 +1,11 @@
 function registration_user() {
-	localStorage.setItem(localStorage.length / 2 + 1, email.value);
+	let leng = localStorage.length / 2 + 1;
+	localStorage.setItem(leng, email.value);
 	const new_person = {
 		name_person: namea.value,
 		email_person: email.value,
 		password_person: password.value,
-		id_person: localStorage.length / 2 + 1,
+		id_person: leng
 		avatar_person: "default_avatar",
 		loginIn_person: true,
 	}
