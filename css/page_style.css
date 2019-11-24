@@ -13,10 +13,13 @@ img {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	
+
 }
 label {
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
+}
+input {
+	position: absolute;
 }
