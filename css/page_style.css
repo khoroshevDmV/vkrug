@@ -17,8 +17,11 @@ img {
 	transform: translateX(-50%);
 
 }
-.content label {
+.labels {
+position: relative;
 width: 100%;
+} 
+.labels label {
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
