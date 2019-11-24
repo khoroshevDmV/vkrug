@@ -6,4 +6,7 @@ function data_person_email() {
 	person_email.innerHTML = buf_person.email_person;
 	person_password.innerHTML = buf_person.password_person;
 	person_name.innerHTML = buf_person.name_person;
+	console.log(buf_person.email_person);
+	console.log(buf_person.password_person);
+	console.log(buf_person.name_person);
 }
