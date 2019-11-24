@@ -5,6 +5,8 @@ function data_person_email() {
 	const buf_person = JSON.parse(localStorage.getItem(buffer_email));*/
 	if (JSON.parse(localStorage.getItem(buffer_id)) == buffer_id){
 		console.log(JSON.parse(localStorage.getItem(buffer_id)));
+	} else {
+		console.log("error");
 	}
 	/*person_email.innerHTML = buf_person.email_person;
 	person_password.innerHTML = buf_person.password_person;
