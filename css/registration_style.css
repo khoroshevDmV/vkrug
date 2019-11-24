@@ -77,3 +77,6 @@ footer {
 	background-color: rgb(200,200,200);
 	flex: 0 0 auto;
 }
+#info: invalid {
+	border: 2px dashed red;
+}
