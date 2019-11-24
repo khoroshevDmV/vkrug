@@ -8,6 +8,7 @@ function data_person_email() {
 	person_name.innerHTML = buf_person.name_person;
 	hidden.style.top = "300px";
 	unhidden.style.top = "320px";
+	console.log(avatar.top);
 }
 function unhidden_avatar() {
 	avatar.hidden = false;

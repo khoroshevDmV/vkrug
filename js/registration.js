@@ -5,6 +5,8 @@ function registration_user() {
 		email_person: email.value,
 		password_person: password.value,
 		id_person: localStorage.length / 2 + 1,
+		avatar_person: "default_avatar",
+		loginIn_person: true,
 	}
 	localStorage.setItem(email.value, JSON.stringify(new_person));
 	window.location = "/pages/userspage/usersinfo?id=" + new_person.id_person + ".html";
