@@ -8,8 +8,8 @@ function data_person_email() {
 	person_name.innerHTML = buf_person.name_person;
 }
 function unhidden_avatar() {
-	avatar.style.hidden = false;
+	avatar.hidden = false;
 }
 function hidden_avatar() {
-	avatar.style.hidden = true;
+	avatar.hidden = true;
 }
