@@ -6,8 +6,8 @@ function data_person_email() {
 	person_email.innerHTML = buf_person.email_person;
 	person_password.innerHTML = buf_person.password_person;
 	person_name.innerHTML = buf_person.name_person;
-	hidden.style.top = 200 + "px";
-	unhidden.style.top = 400 + "px";
+	hidden.style.top = "300px";
+	unhidden.style.top = "320px";
 }
 function unhidden_avatar() {
 	avatar.hidden = false;
