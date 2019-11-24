@@ -3,9 +3,4 @@
 	flex-direction: column;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 500px;
-}
-.avatar {
-	width: 100px;
-	height: 100px;
 }
