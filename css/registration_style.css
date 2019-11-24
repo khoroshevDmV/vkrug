@@ -1,9 +1,9 @@
 ::-webkit-input-placeholder {
  color: rgb(125,125,125);
 }
-*:focus {
+/**:focus {
 	outline: none;
-}
+}*/
 .contact_form {
 	position: relative;
 	font: 20px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
