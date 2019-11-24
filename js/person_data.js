@@ -10,7 +10,6 @@ function data_person_email() {
 	hidden.style.width = "100px";
 	unhidden.style.top = "220px";
 	unhidden.style.width = "100px";
-	console.log(avatar.style.top);
 }
 function unhidden_avatar() {
 	avatar.hidden = false;
