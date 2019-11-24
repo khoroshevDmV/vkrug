@@ -5,6 +5,11 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
+}
+.avatar {
+	position: relative;
+	width: 100px;
+	height: 100px;
 	left: 50%;
 	transform: translateX(-50%);
 }
