@@ -5,7 +5,7 @@ function registration_user() {
 		name_person: namea.value,
 		email_person: email.value,
 		password_person: password.value,
-		id_person: leng
+		id_person: leng,
 		avatar_person: "default_avatar",
 		loginIn_person: true,
 	}
