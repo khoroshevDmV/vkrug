@@ -1,4 +1,11 @@
+.informations {
+	position: relative;
+	font: 20px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	margin-top: 0px;
+	width: 100%;
+}
 .content {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	left: 50%;
