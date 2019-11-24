@@ -1,5 +1,5 @@
 function count_of_people() {
-	switch(localStorage.length % 10) {
+	switch(localStorage.length % 10 / 2) {
 		case 1:
 			count.innerHTML = "Нас уже " + (localStorage.length / 2) + " пользователь";
 			break;
