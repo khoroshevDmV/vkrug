@@ -31,12 +31,13 @@
     </div>
     <div class="wrapper">
       <form class="content">
-        <img src="/icons/default_avatar.png" id="avatar" style="width: 100px; height: 100px">
-        <label id="person_email">email</label>
-        <label id="person_password">password</label>
-        <label id="person_name">name</label>
-        <input type="button" class="see" value="Показать" onclick="unhidden_avatar()" id="unhidden">
-      <input type="button" class="unsee" value="Спрятать" onclick="hidden_avatar()" id="hidden">
+        <img src="/icons/default_avatar.png" id="avatar">
+        <label id="person_email"></label>
+        <label id="person_password"></label>
+        <label id="person_name"></label>
+        <div class="buttons">
+        <input type="button" value="Показать" onclick="unhidden_avatar()" id="unhidden">
+      <input type="button" value="Спрятать" onclick="hidden_avatar()" id="hidden"></div>
       </form>   
     <center><footer><label class="footer" style="height: 100px; font-size: 20px">©2019 K&K TEAM</label></footer></center>
     </div>

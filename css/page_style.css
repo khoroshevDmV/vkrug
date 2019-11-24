@@ -22,6 +22,11 @@ img {
 	left: 50%;
 	transform: translateX(-50%);
 }
-input {
-	position: absolute;
+.buttons {
+	position: relative;
+}
+.buttons input {
+	position: relative;
+	width: 200px;
+	height: 100px;
 }
