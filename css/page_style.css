@@ -17,11 +17,11 @@ img {
 	transform: translateX(-50%);
 
 }
-label {
+.content label {
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
 }
 input {
-	position: relative;
+	position: absolute;
 }
