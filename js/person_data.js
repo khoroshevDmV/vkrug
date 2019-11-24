@@ -7,3 +7,9 @@ function data_person_email() {
 	person_password.innerHTML = buf_person.password_person;
 	person_name.innerHTML = buf_person.name_person;
 }
+function unhidden_avatar() {
+	avatar.style.hidden = false;
+}
+function hidden_avatar() {
+	avatar.style.hidden = true;
+}
