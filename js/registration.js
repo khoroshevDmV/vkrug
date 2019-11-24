@@ -1,5 +1,5 @@
 function registration_user() {
-	let leng = localStorage.length / 2 + 1;
+	let leng = String(localStorage.length / 2 + 1) ;
 	localStorage.setItem(leng, email.value);
 	const new_person = {
 		name_person: namea.value,
