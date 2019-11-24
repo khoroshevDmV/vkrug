@@ -11,8 +11,6 @@ img {
 }
 .avatar {
 	position: absolute;
-	width: 100px;
-	height: 100px;
 	left: 50%;
 	transform: translateX(-50%);
 }
