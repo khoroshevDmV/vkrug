@@ -3,13 +3,19 @@ function data_person_email() {
 	let buffer_id = String(String(string_url.split("=")[1]).split(".")[0]);
 	let buffer_email = localStorage.getItem(buffer_id);
 	const buf_person = JSON.parse(localStorage.getItem(buffer_email));
-	person_email.innerHTML = buf_person.email_person;
-	person_password.innerHTML = buf_person.password_person;
-	person_name.innerHTML = buf_person.name_person;
+	localStorage.remove(buffer_email).loginIn_person == true ? person_password.innerHTML = buf_person.password_person : person_password.innerHTML = "Скрыто от посторонних глаз";
+	person_name.innerHTML = "Имя: " + buf_person.name_person;
+	person_email.innerHTML = "Почтовый адрес: " + buf_person.email_person;
 }
 function unhidden_avatar() {
 	avatar.hidden = false;
 }
 function hidden_avatar() {
 	avatar.hidden = true;
+}
+function back() {
+	back_out.href = "C:/Users/Diana/Desktop/СРОЧНО!!!/pages/userspage/usersinfo?id=" + JSON.parse(localStorage.getItem(buf_person.email_person)).id_person + ".html";
+}
+out.onclick = function() {
+	localStorage.remove(buffer_email).loginIn_person = false;
 }

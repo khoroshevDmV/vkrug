@@ -25,12 +25,13 @@
 	position: relative;
 	left: 50%;
  	transform: translateX(-50%);
+ 	width: 244px;
 }
 .contact_form h2{
 	font-size: 40px;
 	position: relative;
 	left: 50%;
- 	transform: translateX(-50%);
+ 	transform: translateX(-55%);
 }
 .contact_form input {
 	position: relative;
@@ -77,6 +78,7 @@ footer {
 	background-color: rgb(200,200,200);
 	flex: 0 0 auto;
 }
-#info: invalid {
-	border: 2px dashed red;
+.visible {
+	width: 20px;
+	height: 15px;
 }

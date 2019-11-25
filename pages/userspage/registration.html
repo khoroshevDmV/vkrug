@@ -3,29 +3,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ВКруг</title>
-	<link rel="stylesheet" href="/css/registration_style.css">
-  <link rel="stylesheet" href="/css/style.css"> 
+	<link rel="stylesheet" href="C:/Users/Diana/Desktop/СРОЧНО!!!/css/registration_style.css">
+  <link rel="stylesheet" href="C:/Users/Diana/Desktop/СРОЧНО!!!/css/style.css"> 
 </head>
 <body>
 	<div id="menu">
       <header class="main-header" id="header_menu">
         <div class="container">
           <h1 class="logo">
-          <a href="/index.html"> <img src="/icons/icon_for_header.png"></a>
+          <a href="C:/Users/Diana/Desktop/СРОЧНО!!!/index.html"> <img src="C:/Users/Diana/Desktop/СРОЧНО!!!/icons/icon_for_header.png"></a>
           </h1>
           <nav class="main-nav">
           <ul class="main-nav-list">
             <li>
-              <a href="/index.html">Главная</a>
+              <a href="C:/Users/Diana/Desktop/СРОЧНО!!!/index.html">Главная</a>
             </li>
             <li>
               <a href="#">Поиск</a>
             </li>
             <li>
-              <a href="/pages/userspage/enter.html">Вход</a>
+              <a href="C:/Users/Diana/Desktop/СРОЧНО!!!/pages/userspage/enter.html">Вход</a>
             </li>
             <li>
-              <a href="/pages/userspage/registration.html">Регистрация</a>
+              <a href="C:/Users/Diana/Desktop/СРОЧНО!!!/pages/userspage/registration.html">Регистрация</a>
             </li>
           </ul>
           </nav>
@@ -35,25 +35,27 @@
     <div class="all">
 	<form class="contact_form" action="" method="post" name="contact_form" id="form_registration">
 		<ul class="registration_container">
-    		<li> <center><h2>Регистрация</h2></center>
-         		
+    		<li> <h2>Регистрация</h2>		
     		</li>
     		<li>
-        		<input class="info" type="text" id="namea" placeholder="Имя пользователя" required>
+        		<input class="info" type="text" id="namea" placeholder="Имя пользователя" >
     		</li>
     		<li>
-    			<input class="info" type="text" id="email" placeholder="E-mail" required>
+    			<input class="info" type="email" id="email" placeholder="E-mail">
 			</li>
 			<li>
- 				<input class="info" type="text" id="password" placeholder="Пароль" required>
+ 				<input class="info" type="password" id="password" placeholder="Пароль(мин. 6 символов)">
 			</li>
+      <li>
+        <input class="info" type="password" id="password_check" placeholder="Повторите пароль">
+      </li>
 			<li>
  				<input type="button" class="submit" value="Зарегистрироваться" id="registration_users" onclick="registration_user()">
 			</li>
 		</ul>
 	</form>
 </div>
-<center><footer><label style="height: 100px; font-size: 20px">©2019 K&K TEAM</label></footer></center>
-    <script src="/js/registration.js"></script>
+<center><footer><label class="team">©2019 K&K TEAM</label></footer></center>
+    <script src="C:/Users/Diana/Desktop/СРОЧНО!!!/js/registration.js"></script>
 </body>
 </html>
