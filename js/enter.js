@@ -4,7 +4,7 @@ function enter_user() {
 	} else {
 	if (JSON.parse(localStorage.getItem(email.value)).password_person == password.value){
 		JSON.parse(localStorage.getItem(email.value)).loginIn_person = true;
-		window.location = "C:/Users/Diana/Desktop/СРОЧНО!!!/pages/userspage/usersinfo?id=" + JSON.parse(localStorage.getItem(email.value)).id_person + ".html";
+		window.location = "/pages/userspage/usersinfo?id=" + JSON.parse(localStorage.getItem(email.value)).id_person + ".html";
 	} else {
 		password.style.borderColor = "#ce7c7c";
 	}

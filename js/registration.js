@@ -10,7 +10,7 @@ function registration_user() {
 		loginIn_person: true,
 	}
 	localStorage.setItem(email.value, JSON.stringify(new_person));
-	window.location = "C:/Users/Diana/Desktop/СРОЧНО!!!/pages/userspage/usersinfo?id=" + new_person.id_person + ".html";
+	window.location = "/pages/userspage/usersinfo?id=" + new_person.id_person + ".html";
 	}
 }
 namea.onblur = function() {

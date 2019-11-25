@@ -14,7 +14,7 @@ function hidden_avatar() {
 	avatar.hidden = true;
 }
 function back() {
-	back_out.href = "C:/Users/Diana/Desktop/СРОЧНО!!!/pages/userspage/usersinfo?id=" + JSON.parse(localStorage.getItem(buf_person.email_person)).id_person + ".html";
+	back_out.href = "/pages/userspage/usersinfo?id=" + JSON.parse(localStorage.getItem(buf_person.email_person)).id_person + ".html";
 }
 out.onclick = function() {
 	localStorage.remove(buffer_email).loginIn_person = false;
