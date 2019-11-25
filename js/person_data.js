@@ -17,5 +17,6 @@ function back() {
 	back_out.href = "/pages/userspage/usersinfo?id=" + JSON.parse(localStorage.getItem(buf_person.email_person)).id_person + ".html";
 }
 out.onclick = function() {
-	localStorage.removeItem(buffer_email).loginIn_person = false;
+	localStorage.removeItem(buffer_email).loginIn_person; 
+	localStorage.setItem(buffer_email).loginIn_person = JSON.stringify(false);
 }
