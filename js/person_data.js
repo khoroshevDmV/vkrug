@@ -10,8 +10,9 @@ function unhidden_avatar() {
 function hidden_avatar() {
 	avatar.hidden = true;
 }
-function back() {
-	back_out.href = "/pages/userspage/usersinfo?id=" + JSON.parse(localStorage.getItem(buf_person.email_person)).id_person + ".html";
+back_out.onclick = function() {
+	window.location.href = "/pages/userspage/usersinfo?id=" + JSON.parse(localStorage.getItem(buf_person.email_person)).id_person + ".html";
+	data_person_email();
 }
 out.onclick = function() {
 	json_local();
