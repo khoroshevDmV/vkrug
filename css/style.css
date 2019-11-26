@@ -54,7 +54,7 @@ img {
 		justify-content: space-between;
 	}
 }
-.main-nav a: hover {
+.main-nav li: hover {
 	color:red;
 	transition:0.2s;
 	cursor:pointer;
