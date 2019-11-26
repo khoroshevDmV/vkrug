@@ -5,14 +5,26 @@ function data_person_email() {
 	const buf_person = JSON.parse(localStorage.getItem(buffer_email));
 	if (buf_person.loginIn_person == true) {
 		person_password.innerHTML = "Пароль: " + buf_person.password_person;
+		back_out.style.display = "none";
 		back_out.value = "К себе";
+		back_out.style.display = "inline-block";
+		news.style.display = "none";
 		news.value = "Новости";
+		news.style.display = "inline-block";
+		out.style.display = "none";
 		out.value = "Выход";
+		out.style.display = "inline-block";
 	} else {
 		person_password.innerHTML = "Скрыто от посторонних глаз";
+		back_out.style.display = "none";
 		back_out.value = "Главная";
+		back_out.style.display = "inline-block";
+		news.style.display = "none";
 		news.value = "Вход";
+		news.style.display = "inline-block";
+		out.style.display = "none";
 		out.value = "Регистрация";
+		out.style.display = "inline-block";
 	}
 	person_name.innerHTML = "Имя: " + buf_person.name_person;
 	person_email.innerHTML = "Почтовый адрес: " + buf_person.email_person;
@@ -59,7 +71,7 @@ back.onclick = function() {
 	back_out.onclick;
 }
 news.onclick = function() {
-	if (news.value) == "Новости" {
+	if (news.value == "Новости") {
 		news_check.onclick;
 	} else {
 		window.location.href = "/pages/userspage/enter.html";
