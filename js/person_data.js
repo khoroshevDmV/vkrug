@@ -18,7 +18,7 @@ back_out.onclick = function() {
 	let buffer_id = String(String(string_url.split("=")[1]).split(".")[0]);
 	let buffer_email = localStorage.getItem(buffer_id);
 	const buf_person = JSON.parse(localStorage.getItem(buffer_email));
-	window.location.href = "/pages/userspage/usersinfo?id=" + JSON.parse(localStorage.getItem(buf_person.email_person)).id_person + ".html";
+	window.location.href = "/pages/userspage/usersinfo?id=" + buf_person.id_person + ".html";
 	data_person_email();
 }
 out.onclick = function() {
@@ -26,7 +26,9 @@ out.onclick = function() {
 	let buffer_id = String(String(string_url.split("=")[1]).split(".")[0]);
 	let buffer_email = localStorage.getItem(buffer_id);
 	const buf_person = JSON.parse(localStorage.getItem(buffer_email)); 
-	localStorage.setItem(buffer_email.loginIn_person, JSON.stringify(false));
+	localStorage.removeItem(buf_person);
+	buf_person.loginIn_person = false;
+	localStorage.setItem(buffer_email, JSON.stringify(buf_person));
 	window.location.href = "/pages/userspage/enter.html";
 }
 function json_local() {
