@@ -51,6 +51,3 @@ function name_check() {
 		return true;
 	}
 }
-function visible() {
-	out.hidden = true;
-}

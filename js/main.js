@@ -11,5 +11,4 @@ function count_of_people() {
 		default:
 			count.innerHTML = "Нас уже " + (localStorage.length / 2) + " пользователей";
 	}
-	out.hidden = true;
 }

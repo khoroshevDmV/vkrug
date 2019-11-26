@@ -19,6 +19,3 @@ email.onblur = function() {
 password.onblur = function() {
 	password.style.borderColor = "";
 }
-function visible() {
-	out.hidden = true;
-}

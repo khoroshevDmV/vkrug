@@ -46,3 +46,6 @@ function json_local() {
 	let buffer_email = localStorage.getItem(buffer_id);
 	const buf_person = JSON.parse(localStorage.getItem(buffer_email));
 }
+back.onclick = function() {
+	back_out.onclick;
+}
