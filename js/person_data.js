@@ -3,7 +3,14 @@ function data_person_email() {
 	let buffer_id = String(String(string_url.split("=")[1]).split(".")[0]);
 	let buffer_email = localStorage.getItem(buffer_id);
 	const buf_person = JSON.parse(localStorage.getItem(buffer_email));
-	buf_person.loginIn_person == true ? person_password.innerHTML = "Пароль: " + buf_person.password_person : person_password.innerHTML = "Скрыто от посторонних глаз";
+	if (buf_person.loginIn_person == true) {
+		person_password.innerHTML = "Пароль: " + buf_person.password_person;
+		inter.hidden = true;
+		reg.hidden = true;
+	} else {
+		person_password.innerHTML = "Скрыто от посторонних глаз";
+		out.hidden = true;
+	}
 	person_name.innerHTML = "Имя: " + buf_person.name_person;
 	person_email.innerHTML = "Почтовый адрес: " + buf_person.email_person;
 }
