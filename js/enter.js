@@ -1,4 +1,4 @@
-function enter_user() {
+enter_users.onclick = function() {
 	if (!localStorage.getItem(email.value)) {
 		email.style.borderColor = "#ce7c7c";
 	} else {
@@ -14,9 +14,9 @@ function enter_user() {
 	}
 	}
 }
-function email_valid() {
+email.onblur = function() {
 	email.style.borderColor = "";
 }
-function password_valid() {
+password.onblur = function() {
 	password.style.borderColor = "";
 }
