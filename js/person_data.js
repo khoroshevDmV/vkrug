@@ -5,30 +5,26 @@ function data_person_email() {
 	const buf_person = JSON.parse(localStorage.getItem(buffer_email));
 	if (buf_person.loginIn_person == true) {
 		person_password.innerHTML = "Пароль: " + buf_person.password_person;
-		back_out.innerHTML = "К себе";
-		news.innerHTML = "Новости";
-		out.innerHTML = "Выход";
+		back_out.value = "К себе";
+		news.value = "Новости";
+		out.value = "Выход";
 	} else {
 		person_password.innerHTML = "Скрыто от посторонних глаз";
-		back_out.innerHTML = "Главная";
-		news.innerHTML = "Вход";
-		out.innerHTML = "Регистрация";
+		back_out.value = "Главная";
+		news.value = "Вход";
+		out.value = "Регистрация";
 	}
 	person_name.innerHTML = "Имя: " + buf_person.name_person;
 	person_email.innerHTML = "Почтовый адрес: " + buf_person.email_person;
 }
 function unhidden_avatar() {
 	avatar.hidden = false;
-	back_out.innerHTML = "К себе";
-	news.innerHTML = "Новости";
-	out.innerHTML = "Выход";
 }
 function hidden_avatar() {
 	avatar.hidden = true;
 }
 back_out.onclick = function() {
-	let back_out_check = back_out.innerHTML;
-	if back_out_check == "К себе" {
+	if (back_out.value == "К себе") {
 	let string_url = window.location.href;
 	let buffer_id = String(String(string_url.split("=")[1]).split(".")[0]);
 	let buffer_email = localStorage.getItem(buffer_id);
@@ -40,8 +36,7 @@ back_out.onclick = function() {
 	}
 }
 out.onclick = function() {
-	let out_check = out.innerHTML;
-	if out_check == "Выход" {
+	if (out.value == "Выход") {
 	let string_url = window.location.href;
 	let buffer_id = String(String(string_url.split("=")[1]).split(".")[0]);
 	let buffer_email = localStorage.getItem(buffer_id);
@@ -64,8 +59,7 @@ back.onclick = function() {
 	back_out.onclick;
 }
 news.onclick = function() {
-	let news_check = news.innerHTML;
-	if news_check == "Новости" {
+	if (news.value) == "Новости" {
 		news_check.onclick;
 	} else {
 		window.location.href = "/pages/userspage/enter.html";
