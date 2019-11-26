@@ -19,6 +19,8 @@ function unhidden_avatar() {
 }
 function hidden_avatar() {
 	avatar.hidden = true;
+	inter.hidden = true;
+	reg.hidden = true;
 }
 back_out.onclick = function() {
 	let string_url = window.location.href;
