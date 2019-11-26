@@ -18,5 +18,6 @@ function back() {
 }
 out.onclick = function() {
 	localStorage.removeItem(buffer_email).loginIn_person; 
-	localStorage.setItem(buffer_email).loginIn_person = JSON.stringify(false);
+	localStorage.setItem(buffer_email).loginIn_person = false;
+	window.location.href = "/pages/userspage/enter.html";
 }
