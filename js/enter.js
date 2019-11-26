@@ -1,10 +1,9 @@
 function enter_user() {
-	const buf_person;
 	if (!localStorage.getItem(email.value)) {
 		email.style.borderColor = "#ce7c7c";
 	} else {
 	if 
-		buf_person = JSON.parse(localStorage.getItem(email.value));
+		const buf_person = JSON.parse(localStorage.getItem(email.value));
 		if (buf_person.password_person == password.value) {
 		localStorage.removeItem(buf_person);
 		buf_person.loginIn = true;
