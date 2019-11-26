@@ -57,6 +57,7 @@ img {
 .main-nav a:hover {
 	color: red;
 	transition: 0.2s;
+	cursor: pointer;
 }
 .lorem {
 	height: 100%;
