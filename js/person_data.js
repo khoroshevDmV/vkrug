@@ -25,8 +25,7 @@ out.onclick = function() {
 	let string_url = window.location.href;
 	let buffer_id = String(String(string_url.split("=")[1]).split(".")[0]);
 	let buffer_email = localStorage.getItem(buffer_id);
-	const buf_person = JSON.parse(localStorage.getItem(buffer_email));
-	localStorage.removeItem(buffer_email.loginIn_person); 
+	const buf_person = JSON.parse(localStorage.getItem(buffer_email)); 
 	localStorage.setItem(buffer_email).loginIn_person = false;
 	window.location.href = "/pages/userspage/enter.html";
 }
