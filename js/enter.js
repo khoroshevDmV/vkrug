@@ -2,7 +2,6 @@ enter_users.onclick = function() {
 	if (!localStorage.getItem(email.value)) {
 		email.style.borderColor = "#ce7c7c";
 	} else {
-	if 
 		const buf_person = JSON.parse(localStorage.getItem(email.value));
 		if (buf_person.password_person == password.value) {
 		localStorage.removeItem(buf_person);
