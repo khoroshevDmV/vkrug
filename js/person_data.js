@@ -19,6 +19,9 @@ function data_person_email() {
 }
 function unhidden_avatar() {
 	avatar.hidden = false;
+	back_out.innerHTML = "К себе";
+	news.innerHTML = "Новости";
+	out.innerHTML = "Выход";
 }
 function hidden_avatar() {
 	avatar.hidden = true;
