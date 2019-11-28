@@ -1,12 +1,12 @@
 function data_person_email() {
 	get_info();
 	if (buf_person.loginIn_person == true) {
-		second_menu.hidden = true;
+		//second_menu.hidden = true;
 		menu.style.visibility = "visible";
 		person_password.innerHTML = " " + buf_person.password_person;
 	} else {
 		menu.hidden = true;
-		second_menu.style.visibility = "visible";
+		//second_menu.style.visibility = "visible";
 		person_password.innerHTML = " скрыт от посторонних глаз";
 	}
 	person_name.innerHTML = " " + buf_person.name_person;
