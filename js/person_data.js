@@ -2,9 +2,11 @@ function data_person_email() {
 	get_info();
 	if (buf_person.loginIn_person == true) {
 		second_menu.hidden = true;
+		menu.style.visibility = "visible";
 		person_password.innerHTML = "Пароль: " + buf_person.password_person;
 	} else {
 		menu.hidden = true;
+		second_menu.style.visibility = "visible";
 		person_password.innerHTML = "Скрыто от посторонних глаз";
 	}
 	person_name.innerHTML = "Имя: " + buf_person.name_person;
