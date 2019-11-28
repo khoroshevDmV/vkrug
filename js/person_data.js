@@ -41,8 +41,7 @@ out.onclick = function() {
 back.onclick = function() {
 	if (news_back.innerHTML == "Новости") {
 		back_out.onclick;
-	} 
-	if (news_back.innerHTML == "Регистрация") {
+	} else {
 		window.location.href = "/pages/userspage/registration.html";
 	}
 }
