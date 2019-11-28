@@ -6,8 +6,10 @@ function data_person_email() {
 	if (buf_person.loginIn_person == true) {
 		person_password.innerHTML = "Пароль: " + buf_person.password_person;
 	} else {
+		menu.style.visibility = "hidden";
 		person_password.innerHTML = "Скрыто от посторонних глаз";
 	}
+	second_menu.style.visibility = "hidden";
 	person_name.innerHTML = "Имя: " + buf_person.name_person;
 	person_email.innerHTML = "Почтовый адрес: " + buf_person.email_person;
 }
