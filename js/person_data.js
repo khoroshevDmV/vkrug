@@ -1,10 +1,14 @@
 function data_person_email() {
 	get_info();
 	if (buf_person.loginIn_person == true) {
-		menu.style.visibility = "visible";
+		main_back.innerHTML = "К себе";
+		news_back.innerHTML = "Новости";
+		enter_back.innerHTML = "Выход";
 		person_password.innerHTML = " " + buf_person.password_person;
 	} else {
-		menu.hidden = true;
+		main_back.innerHTML = "Главная";
+		news_back.innerHTML = "Регистрация";
+		enter_back.innerHTML = "Вход";
 		person_password.innerHTML = " скрыт от посторонних глаз";
 	}
 	person_name.innerHTML = " " + buf_person.name_person;
@@ -17,19 +21,29 @@ function hidden_avatar() {
 	avatar.hidden = true;
 }
 back_out.onclick = function() {
-	get_info();
-	window.location.href = "/pages/userspage/usersinfo?id=" + buf_person.id_person + ".html";
-	data_person_email();
+	if (main_back.innerHTML == "К себе") {
+		get_info();
+		window.location.href = "/pages/userspage/usersinfo?id=" + buf_person.id_person + ".html";
+		data_person_email();
+	} else {
+		window.location.href = "/index.html";
+	}
 }
 out.onclick = function() {
-	get_info();
-	localStorage.removeItem(buf_person);
-	buf_person.loginIn_person = false;
-	localStorage.setItem(buffer_email, JSON.stringify(buf_person));
+	if (enter_back.innerHTML == "Выход") {
+		get_info();
+		localStorage.removeItem(buf_person);
+		buf_person.loginIn_person = false;
+		localStorage.setItem(buffer_email, JSON.stringify(buf_person));
+	}
 	window.location.href = "/pages/userspage/enter.html";
 }
 back.onclick = function() {
-	back_out.onclick;
+	if (news_back.innerHTML == "Новости") {
+		back_out.onclick;
+	} else {
+		window.location.href = "/pages/userspage/registration.html";
+	}
 }
 function get_info() {
 	let string_url = window.location.href;
