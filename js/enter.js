@@ -7,7 +7,7 @@ enter_users.onclick = function() {
 		localStorage.removeItem(buf_person);
 		buf_person.loginIn_person = true;
 		localStorage.setItem(buf_person.email_person, JSON.stringify(buf_person));
-		window.location = "/pages/userspage/usersinfo?id=" + buf_person.id_person + ".html";
+		window.location = "/pages/usersinfo?id=" + buf_person.id_person + ".html";
 	} else {
 		password.style.borderColor = "#ce7c7c";
 	}

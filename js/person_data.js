@@ -23,7 +23,7 @@ function hidden_avatar() {
 back_out.onclick = function() {
 	if (main_back.innerHTML == "К себе") {
 		get_info();
-		window.location.href = "/pages/userspage/usersinfo?id=" + buf_person.id_person + ".html";
+		window.location.href = "/pages/usersinfo?id=" + buf_person.id_person + ".html";
 		data_person_email();
 	} else {
 		window.location.href = "/index.html";
@@ -36,13 +36,13 @@ out.onclick = function() {
 		buf_person.loginIn_person = false;
 		localStorage.setItem(buf_person.email_person, JSON.stringify(buf_person));
 	}
-	window.location.href = "/pages/userspage/enter.html";
+	window.location.href = "/pages/enter.html";
 }
 back.onclick = function() {
 	if (news_back.innerHTML == "Новости") {
 		back_out.onclick;
 	} else {
-		window.location.href = "/pages/userspage/registration.html";
+		window.location.href = "/pages/registration.html";
 	}
 }
 function get_info() {
