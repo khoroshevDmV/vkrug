@@ -5,7 +5,7 @@ enter_users.onclick = function() {
 		const buf_person = JSON.parse(localStorage.getItem(email.value));
 		if (buf_person.password_person == password.value) {
 		localStorage.removeItem(buf_person);
-		buf_person.loginIn = true;
+		buf_person.loginIn_person = true;
 		localStorage.setItem(buf_person.email_person, JSON.stringify(buf_person));
 		window.location = "/pages/userspage/usersinfo?id=" + buf_person.id_person + ".html";
 	} else {
