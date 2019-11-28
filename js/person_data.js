@@ -1,15 +1,12 @@
 function data_person_email() {
-	let string_url = window.location.href;
-	let buffer_id = String(String(string_url.split("=")[1]).split(".")[0]);
-	let buffer_email = localStorage.getItem(buffer_id);
-	const buf_person = JSON.parse(localStorage.getItem(buffer_email));
+	get_info();
 	if (buf_person.loginIn_person == true) {
+		second_menu.hidden = true;
 		person_password.innerHTML = "Пароль: " + buf_person.password_person;
 	} else {
-		menu.style.visibility = "hidden";
+		menu.hidden = true;
 		person_password.innerHTML = "Скрыто от посторонних глаз";
 	}
-	second_menu.style.visibility = "hidden";
 	person_name.innerHTML = "Имя: " + buf_person.name_person;
 	person_email.innerHTML = "Почтовый адрес: " + buf_person.email_person;
 }
@@ -20,29 +17,23 @@ function hidden_avatar() {
 	avatar.hidden = true;
 }
 back_out.onclick = function() {
-	let string_url = window.location.href;
-	let buffer_id = String(String(string_url.split("=")[1]).split(".")[0]);
-	let buffer_email = localStorage.getItem(buffer_id);
-	const buf_person = JSON.parse(localStorage.getItem(buffer_email));
+	get_info();
 	window.location.href = "/pages/userspage/usersinfo?id=" + buf_person.id_person + ".html";
 	data_person_email();
 }
 out.onclick = function() {
-	let string_url = window.location.href;
-	let buffer_id = String(String(string_url.split("=")[1]).split(".")[0]);
-	let buffer_email = localStorage.getItem(buffer_id);
-	const buf_person = JSON.parse(localStorage.getItem(buffer_email)); 
+	get_info();
 	localStorage.removeItem(buf_person);
 	buf_person.loginIn_person = false;
 	localStorage.setItem(buffer_email, JSON.stringify(buf_person));
 	window.location.href = "/pages/userspage/enter.html";
 }
-function json_local() {
+back.onclick = function() {
+	back_out.onclick;
+}
+function get_info() {
 	let string_url = window.location.href;
 	let buffer_id = String(String(string_url.split("=")[1]).split(".")[0]);
 	let buffer_email = localStorage.getItem(buffer_id);
-	const buf_person = JSON.parse(localStorage.getItem(buffer_email));
-}
-back.onclick = function() {
-	back_out.onclick;
+	return buf_person = JSON.parse(localStorage.getItem(buffer_email));
 }
