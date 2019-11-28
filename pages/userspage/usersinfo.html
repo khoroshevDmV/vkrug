@@ -33,19 +33,26 @@
       </header>
     </div>
     <div class="wrapper">
+      <div class="all_person">
       <form class="content">
         <div class="main_avatar">
-        <img src="/icons/wandb_avatar_1.png" id="avatar" class="avatar">
+          <img src="/icons/wandb_avatar_1.png" id="avatar" class="avatar">
         </div>
         <div class="labels"> 
-        <center><label>E-mail:</label><label id="person_email"></label></center>
-        <center>Пароль:<label id="person_password"></label></center>
-        <center>Имя:<label id="person_name"></label></center></div>
+          <label>E-mail:</label>
+          <label>Пароль:</label>
+          <label>Имя:</label>
+        </div>
         <div class="buttons">
-        <input type="button" value="Показать" onclick="unhidden_avatar()" id="unhidden">
-      <input type="button" value="Спрятать" onclick="hidden_avatar()" id="hidden"></div>
+          <input type="button" value="Показать" onclick="unhidden_avatar()" id="unhidden">
+          <input type="button" value="Спрятать" onclick="hidden_avatar()" id="hidden"></div>
       </form>   
-    <center><footer><label class="team">©2019 K&K TEAM</label></footer></center>
+      <form class="info">
+        <label id="person_email"></label>
+        <label id="person_password"></label>
+        <label id="person_name"></label>
+      </form>
+      <center><footer><label class="team">©2019 K&K TEAM</label></footer></center>
     </div>
     <script type="text/javascript" src="/js/person_data.js"></script>
  </body> 
