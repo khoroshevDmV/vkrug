@@ -34,7 +34,7 @@ out.onclick = function() {
 		get_info();
 		localStorage.removeItem(buf_person);
 		buf_person.loginIn_person = false;
-		localStorage.setItem(buffer_email, JSON.stringify(buf_person));
+		localStorage.setItem(buf_person.email_person, JSON.stringify(buf_person));
 	}
 	window.location.href = "/pages/userspage/enter.html";
 }

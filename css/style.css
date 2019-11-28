@@ -23,7 +23,6 @@ html, body {
 	text-transform: uppercase;
 	color: black;
 	text-decoration: none;
-	cursor: pointer;
 }
 .main-nav ul {
 	margin: 0;
@@ -80,4 +79,7 @@ footer {
 	font-size: 20px;
 	position: relative;
 	top: 30px;
+}
+.main-nav label {
+	cursor: pointer;
 }
