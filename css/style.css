@@ -25,7 +25,7 @@ html, body {
 	padding: 0px 10px;
 	font-size: 15px;
 	text-transform: uppercase;
-	color: white;
+	color: #F4A950;
 	text-decoration: none;
 }
 .main-nav ul {
@@ -78,6 +78,7 @@ footer {
 	background-color: #161B21;
 	flex: 0 0 auto;
     height: 100px;
+    color: #F4A950;
 }
 .team {
 	font-size: 20px;

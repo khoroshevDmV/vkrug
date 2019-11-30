@@ -26,7 +26,6 @@
 	position: relative;
 	left: 50%;
  	transform: translateX(-55%);
- 	color: white;
 }
 .contact_form input {
 	position: relative;
@@ -40,7 +39,7 @@
  	transform: translateX(-50%);
  	background: #F4A950;
  	border: none;
- 	border-bottom: 2px solid white;
+ 	border-bottom: 2px solid #161B21;
  	user-select: none;
  	outline: none;
 }
@@ -82,8 +81,8 @@ footer {
 	height: 15px;
 }
 .contact_form input::-moz-placeholder {
-	color: rgba(162,160,204,1);
+	color: #295F2D;
 }
 .contact_form input::-webkit-input-placeholder {
-	color: rgba(162,160,204,1);
+	color: #295F2D;
 }
