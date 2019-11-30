@@ -26,6 +26,7 @@
 	position: relative;
 	left: 50%;
  	transform: translateX(-55%);
+
 }
 .contact_form input {
 	position: relative;
@@ -39,7 +40,7 @@
  	transform: translateX(-50%);
  	background: #F4A950;
  	border: none;
- 	border-bottom: 2px solid #161B21;
+ 	border-bottom: 2px solid;
  	user-select: none;
  	outline: none;
 }
