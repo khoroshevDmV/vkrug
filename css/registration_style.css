@@ -1,9 +1,3 @@
-::-webkit-input-placeholder {
- color: rgb(125,125,125);
-}
-/**:focus {
-	outline: none;
-}*/
 .contact_form {
 	position: relative;
 	font: 20px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
@@ -32,6 +26,7 @@
 	position: relative;
 	left: 50%;
  	transform: translateX(-55%);
+ 	color: white;
 }
 .contact_form input {
 	position: relative;
@@ -43,6 +38,12 @@
  	user-select: none;
  	left: 50%;
  	transform: translateX(-50%);
+ 	background: rgba(77,66,243,1);
+ 	border: none;
+ 	border-bottom: 2px solid white;
+ 	color: white;
+ 	user-select: none;
+ 	outline: none;
 }
 .submit {
 	position: relative;
@@ -81,4 +82,10 @@ footer {
 .visible {
 	width: 20px;
 	height: 15px;
+}
+.contact_form input::-moz-placeholder {
+	color: rgba(162,160,204,1);
+}
+.contact_form input::-webkit-input-placeholder {
+	color: rgba(162,160,204,1);
 }
