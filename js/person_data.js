@@ -54,5 +54,7 @@ function get_info() {
 colorsone.onclick = function() {
 	let buf = String(colorsone.style.backgroundColor);
 	let buf1 = String(colorsone.style.color);
+	colorsone.disabled = "enabled";
 	colorsone.style.backgroundColor = body.style.backgroundColor;
+	colorsone.disabled = "disabled";
 }
