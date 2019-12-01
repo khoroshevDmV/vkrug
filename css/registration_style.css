@@ -38,10 +38,8 @@
  	user-select: none;
  	left: 50%;
  	transform: translateX(-50%);
- 	background: rgba(77,66,243,1);
  	border: none;
- 	border-bottom: 2px solid white;
- 	color: white;
+ 	border-bottom: 2px solid;
  	user-select: none;
  	outline: none;
 }
@@ -50,7 +48,6 @@
 	font-size: 20px;
 	font-weight: normal;
 	display: inline-block;
-  	color: black;
   	text-decoration: none;
 	user-select: none;
 	padding: .5em 2em;
@@ -76,7 +73,6 @@
 	flex: 1 0 auto;
 }
 footer {
-	background-color: rgb(200,200,200);
 	flex: 0 0 auto;
 }
 .visible {
