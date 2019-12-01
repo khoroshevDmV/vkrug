@@ -76,7 +76,7 @@ function save_color(bgcolor,txtcolor) {
 	body.style.backgroundColor = bgcolor;
 	body.style.color = txtcolor;
 }
-checkbox.onmouseover = function() {
+checkbox.onchange = function() {
 	if (settings.style.visibility == "hidden") {
 		settings.style.visibility = "visible";
 	} else {
