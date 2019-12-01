@@ -1,4 +1,4 @@
-	function data_person_email() {
+function data_person_email() {
 	get_info();
 	if (buf_person.loginIn_person == true) {
 		main_back.innerHTML = "К себе";
@@ -15,12 +15,6 @@
 	}
 	person_name.innerHTML = " " + buf_person.name_person;
 	person_email.innerHTML = " " + buf_person.email_person;
-}
-function unhidden_avatar() {
-	avatar.hidden = false;
-}
-function hidden_avatar() {
-	avatar.hidden = true;
 }
 back_out.onclick = function() {
 	if (main_back.innerHTML == "К себе") {
@@ -81,4 +75,7 @@ function save_color(bgcolor,txtcolor) {
 	localStorage.setItem(buf_person.email_person,JSON.stringify(buf_person));
 	body.style.backgroundColor = bgcolor;
 	body.style.color = txtcolor;
+}
+checkbox.onchange = function() {
+	settings.style.visibility = "visible";
 }

@@ -34,16 +34,11 @@
 .labels label {
 	position: relative;
 }
-.buttons {
-	position: relative;
-}
-.buttons input {
+.checkbox {
 	font-size: 20px;
 	position: relative;
 	width: 120px;
 	height: 50px;
-	left: 50%;
-	transform: translateX(-100%);
 }
 .avatar:hover {
 	height: 200px;
@@ -78,6 +73,7 @@
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	visibility: hidden;
 }
 .settings div {
 	position: relative;
