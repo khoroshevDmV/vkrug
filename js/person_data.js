@@ -77,7 +77,7 @@ function save_color(bgcolor,txtcolor) {
 	body.style.color = txtcolor;
 }
 checkbox.onchange = function() {
-	if (settings.style.visibility == "hidden") {
+	if (settings.style.visibility != "hidden") {
 		settings.style.visibility = "visible";
 	} else {
 		settings.style.visibility = "hidden";
