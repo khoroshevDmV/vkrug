@@ -27,6 +27,7 @@ html, body {
 	text-transform: uppercase;
 	text-decoration: none;
 	cursor: pointer;
+	color: #F4A950;
 }
 .main-nav ul {
 	margin: 0;
@@ -59,7 +60,7 @@ img {
 	}
 }
 .main-nav a:hover {
-	color: #161B21;
+	color: rgba(130,1,146,1);
 	transition: 0.2s;
 }
 .lorem {
