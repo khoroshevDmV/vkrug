@@ -68,7 +68,7 @@
 	flex-direction: column;
 	text-align: center;
 	visibility: hidden;
-	border: 2 solid;
+	border: 2 solid black;
 }
 .settings div {
 	position: relative;
