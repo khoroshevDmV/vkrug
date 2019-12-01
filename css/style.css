@@ -60,8 +60,9 @@ img {
 	}
 }
 .main-nav a:hover {
-	color: rgba(130,1,146,1);
+	color: #F4A950;
 	transition: 0.2s;
+	cursor: pointer;
 }
 .lorem {
 	height: 100%;

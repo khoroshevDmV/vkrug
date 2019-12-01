@@ -1,4 +1,4 @@
-function data_person_email() {
+	function data_person_email() {
 	get_info();
 	if (buf_person.loginIn_person == true) {
 		main_back.innerHTML = "К себе";
