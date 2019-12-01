@@ -79,7 +79,7 @@
 	flex-direction: column;
 	text-align: center;
 }
-.settings input {
+.settings div {
 	position: relative;
 	width: 30%;
 	height: 10%;
