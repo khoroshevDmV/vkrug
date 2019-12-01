@@ -59,7 +59,7 @@ img {
 		justify-content: space-between;
 	}
 }
-.main-nav a:hover {
+.main-nav label:hover {
 	color: #F4A950;
 	transition: 0.2s;
 	cursor: pointer;
