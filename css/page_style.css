@@ -34,12 +34,6 @@
 .labels label {
 	position: relative;
 }
-.checkbox {
-	font-size: 20px;
-	position: relative;
-	width: 120px;
-	height: 50px;
-}
 .avatar:hover {
 	height: 200px;
 	width: 200px;
