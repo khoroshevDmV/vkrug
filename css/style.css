@@ -86,3 +86,9 @@ footer {
 	position: relative;
 	top: 30px;
 }
+.contact_form input::-moz-placeholder {
+	color: #006B38FF;
+}
+.contact_form input::-webkit-input-placeholder {
+	color: #006B38FF;
+}

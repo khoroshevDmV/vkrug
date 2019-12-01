@@ -74,9 +74,3 @@
 .contact_form {
 	flex: 1 0 auto;
 }
-.contact_form input::-moz-placeholder {
-	color: #006B38FF;
-}
-.contact_form input::-webkit-input-placeholder {
-	color: #006B38FF;
-}
