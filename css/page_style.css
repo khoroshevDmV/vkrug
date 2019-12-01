@@ -80,6 +80,7 @@
 	text-align: center;
 }
 .settings input {
+	position: relative;
 	width: 30%;
 	height: 10%;
 	margin-left: 10px;
