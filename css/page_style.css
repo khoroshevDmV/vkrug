@@ -115,7 +115,7 @@
 	user-select: none;
  	outline: none;
 }
-.button: hover {
+.button:hover {
 	background-color: #465e75;
 	color: black;
 }
