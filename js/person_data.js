@@ -57,5 +57,5 @@ colorsone.onclick = function() {
 	colorsone.disabled = "enabled";
 	colorsone.style.backgroundColor = body.style.backgroundColor;
 	colorsone.disabled = "disabled";*/
-	colorsone.style.color = black;
+	colorsone.style.color = "black";
 }
