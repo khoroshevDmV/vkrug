@@ -26,6 +26,7 @@ html, body {
 	font-size: 15px;
 	text-transform: uppercase;
 	text-decoration: none;
+	cursor: pointer;
 }
 .main-nav ul {
 	margin: 0;
@@ -58,7 +59,7 @@ img {
 	}
 }
 .main-nav a:hover {
-	color: rgba(130,1,146,1);
+	color: #161B21;
 	transition: 0.2s;
 }
 .lorem {

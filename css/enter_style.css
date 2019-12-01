@@ -33,6 +33,7 @@
  	transform: translateX(-47%);
 }
 .contact_form input {
+	background-color: #F4A950;
 	position: relative;
 	display: block;
  	height:40px;
