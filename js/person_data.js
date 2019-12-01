@@ -52,10 +52,11 @@ function get_info() {
 	return buf_person = JSON.parse(localStorage.getItem(buffer_email));
 }
 colorsone.onclick = function() {
-	/*let buf = String(colorsone.style.backgroundColor);
-	let buf1 = String(colorsone.style.color);
-	colorsone.disabled = "enabled";
-	colorsone.style.backgroundColor = body.style.backgroundColor;
-	colorsone.disabled = "disabled";*/
-	colorsone.style.color = "black";
+	let buf = String(body.style.backgroundColor);
+	let buf1 = String(body.style.color);
+	colorsone.disabled = enabled;
+	colorsone.style.backgroundColor = buf;
+	colorsone.style.color = buf1;
+	colorsone.disabled = disabled;
+	console.log(buf);
 }
