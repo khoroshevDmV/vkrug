@@ -104,3 +104,9 @@
 	background-color: #F4A950;
 	color: #161B21;
 }
+.button {
+	width: 100px;
+	height: 70px;
+	background-color: #6670f1;
+	color: white;
+}

@@ -76,10 +76,10 @@ function save_color(bgcolor,txtcolor) {
 	body.style.backgroundColor = bgcolor;
 	body.style.color = txtcolor;
 }
-checkbox.onclick = function() {
+button.onclick = function() {
 	if (settings.style.visibility == "hidden") {
-		settings.style.visibility = "hidden";
-	} else {
 		settings.style.visibility = "visible";
+	} else {
+		settings.style.visibility = "hidden";
 	}
 }
