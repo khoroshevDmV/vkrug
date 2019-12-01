@@ -77,9 +77,9 @@ function save_color(bgcolor,txtcolor) {
 	body.style.color = txtcolor;
 }
 button.onclick = function() {
-	if (settings.style.visibility == "hidden") {
-		settings.style.visibility = "visible";
-	} else {
+	if (settings.style.visibility != "hidden") {
 		settings.style.visibility = "hidden";
+	} else {
+		settings.style.visibility = "visible";
 	}
 }
