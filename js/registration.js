@@ -8,6 +8,8 @@ function registration_user() {
 		id_person: String(localStorage.length / 2 + 0.5), 
 		avatar_person: "default_avatar",
 		loginIn_person: true,
+		bgcolor: "#F4A950",
+		txtcolor: "#161B21",
 	}
 	localStorage.setItem(email.value, JSON.stringify(new_person));
 	window.location = "/usersinfo?id=" + new_person.id_person + ".html";
