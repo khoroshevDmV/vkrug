@@ -45,14 +45,13 @@ img {
 	max-width: 100%;
 	padding: 0px;
 	margin: 0 auto;
+	background-color: #161B21;
 }
 .main-header .container {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
-	background-color: #161B21;
-	color: #F4A950;
 }
 @media (min-width: 960px) {
 	.main-header, .container {
@@ -60,7 +59,7 @@ img {
 	}
 }
 .main-nav a:hover {
-	color: #295F2D;
+	color: rgba(130,1,146,1);
 	transition: 0.2s;
 }
 .lorem {

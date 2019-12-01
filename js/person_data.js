@@ -51,3 +51,8 @@ function get_info() {
 	let buffer_email = localStorage.getItem(buffer_id);
 	return buf_person = JSON.parse(localStorage.getItem(buffer_email));
 }
+colorsone.onclick = function() {
+	let buf = String(colorsone.style.backgroundColor);
+	let buf1 = String(colorsone.style.color);
+	colorsone.style.backgroundColor = body.style.backgroundColor;
+}

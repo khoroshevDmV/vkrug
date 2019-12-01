@@ -30,8 +30,8 @@ function check() {
 		password_check.style.borderColor = "#e91e63";
 		password.style.borderColor = "#e91e63";
 	} else {
-		password_check.style.borderColor = "#295F2D";
-		password.style.borderColor = "##295F2D";
+		password_check.style.borderColor = "#2aff05";
+		password.style.borderColor = "#2aff05";
 		return true;
 	}
 }
@@ -39,7 +39,7 @@ function email_check() {
 	if (email.value.includes(" ") || email.value == "" || !(email.value.includes("@")) || !(email.value.includes(".")) || email.value.indexOf("@") == 0 || email.value.indexOf(".") < (email.value.indexOf("@") + 3) || email.value.indexOf(".") == email.value.length-1){
 		email.style.borderColor = "#e91e63";
 	} else {
-		email.style.borderColor = "#295F2D";
+		email.style.borderColor = "#2aff05";
 		return true;
 	}
 }
@@ -47,7 +47,7 @@ function name_check() {
 	if (namea.value == "") {
 		namea.style.borderColor = "#e91e63";
 		} else {
-		namea.style.borderColor = "#295F2D";
+		namea.style.borderColor = "#2aff05";
 		return true;
 	}
 }

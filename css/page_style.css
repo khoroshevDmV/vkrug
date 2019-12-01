@@ -26,6 +26,7 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
+	/*justify-content: center;*/
 	padding-top: 10px;
 	width: 100px;
 	border-right: 2px solid;
@@ -71,7 +72,36 @@
 .settings {
 	position: relative;
 	height: 400px;
-	width: 50%;
 	left: 50%;
-	transform: translateY(-72%);
+	transform: translateY(-50%);
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.settings input {
+	width: 30%;
+	height: 10%;
+	margin-left: 10px;
+	margin-top: 3px;
+	text-align: center;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+}
+.colorsone {
+	background-color: #990011FF;
+	color: #FCF6F5FF;
+}
+.colorstwo {
+	background-color: #DF6589FF;
+	color: #3C1053FF;
+}
+.colorsthree {
+	background-color: #F2EDD7FF;
+	color: #755139FF;
+}
+.colorsfour {
+	background-color: #006B38FF;
+	color: #101820FF;
 }
