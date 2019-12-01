@@ -59,8 +59,8 @@ img {
 		justify-content: space-between;
 	}
 }
-.main-nav label:hover, .main-nav a:hover {
-	color: #F4A950;
+.main-nav a:hover {
+	color: #006B38FF;
 	transition: 0.2s;
 	cursor: pointer;
 }
