@@ -1,6 +1,3 @@
-/*rgba(16,122,197,1) (77,66,243,1) (142,66,243,1)
-(110,1,255,1) (130,1,146,1)
-*/
 * {
 	box-sizing: border-box;
 }
@@ -91,4 +88,19 @@ footer {
 }
 .contact_form input::-webkit-input-placeholder {
 	color: #006B38FF;
+}
+.second_menu {
+	position: relative;
+}
+.second_menu_li {
+	position: absolute;
+	visibility: hidden;
+	background-color: #161B21;
+}
+.second_menu_li li {
+	padding-top: 3px;
+	width: 100%;
+}
+.second_menu:hover .second_menu_li{
+	visibility: visible;
 }
