@@ -33,10 +33,10 @@
 .labels label {
 	position: relative;
 }
-.avatar:hover {
+/*.avatar:hover {
 	height: 200px;
 	width: 200px;
-}
+}*/
 .info {
 	font: 20px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 	margin-top: 0px;
