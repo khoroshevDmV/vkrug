@@ -45,6 +45,7 @@
  	user-select: none;
  	outline: none;
  	color: #159625;
+ 	border-color: #a931b1;
 }
 .submit {
 	position: relative;
