@@ -26,7 +26,6 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	/*justify-content: center;*/
 	padding-top: 10px;
 	width: 100px;
 	border-right: 2px solid;
