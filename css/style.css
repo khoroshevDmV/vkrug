@@ -104,3 +104,6 @@ footer {
 .second_menu:hover .second_menu_li{
 	visibility: visible;
 }
+.second_menu_li li:hover {
+	visibility: visible;
+}
