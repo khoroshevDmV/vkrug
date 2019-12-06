@@ -65,7 +65,7 @@ colorsfour.onmouseover = function()
 }
 colorsfive.onmouseover = function() 
 {
-	save_color("#9e9e9e","black");
+	save_color("white","#159625");
 }
 function save_color(bgcolor,txtcolor) {
 	get_info();

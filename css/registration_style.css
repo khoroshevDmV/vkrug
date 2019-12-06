@@ -60,11 +60,8 @@
  	color: #159625;
 }
 .submit:hover {
-	background: rgba(255,255,255,.6);
+	background: #4eb95b;
     cursor: pointer;
-}
-.submit: active {
-	background: white;
 }
 .all {
 	display: flex;
