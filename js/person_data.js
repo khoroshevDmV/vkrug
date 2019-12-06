@@ -78,8 +78,8 @@ function save_color(bgcolor,txtcolor) {
 }
 button.onclick = function() {
 	if (settings.hidden) {
-		settings.hidden = visible;
+		settings.hidden = 1;
 	} else {
-		settings.hidden = hidden;
+		settings.hidden = 0;
 	}
 }
